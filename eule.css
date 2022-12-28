@@ -1,0 +1,17 @@
+
+a {
+	color: green;
+}
+a:hover {
+	color: orange;
+}
+
+html {
+	background-image: radial-gradient(at top left, rgba(0,255,255,0.8) 5%, rgba(255,165,0,0.8));
+	min-height: 100vh;
+}
+
+html:hover {
+	background-image: radial-gradient(at top left, rgba(0,255,255,0.8) 30%, rgba(255,165,0,0.8));
+	min-height: 100vh;
+}

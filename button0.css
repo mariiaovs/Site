@@ -1,0 +1,6 @@
+@keyframes bouncing{
+	0% { top: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5);}
+	100% { top: 100px; box-shadow: 0 0 5px rgba(0,0,0,1);}
+}
+
+button {animation: bouncing 1s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both;}

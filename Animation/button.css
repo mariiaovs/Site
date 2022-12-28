@@ -1,0 +1,20 @@
+div {
+	border-bottom: 3px solid #444;
+	display: flex;
+	height: 330px;
+	width: 100%;
+}
+
+
+
+
+
+@keyframes translating {
+	0% { transform: translateY(0);}
+	100% { transform: translateY(-100);}
+}
+
+.knopka {animation: translating 1s linear infinite;
+	height: 100px;
+	width:200px;
+	}

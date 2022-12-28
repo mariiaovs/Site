@@ -1,0 +1,23 @@
+html {
+	background: #d0d0d0;
+}
+
+h1,p,div {
+	background: #008B8B;
+	color: #FFF8DC;
+}
+#red {
+	background: brown;
+	color: #FFF8DC;
+}
+a {
+	color:red;
+}
+a:hover {
+	color:blue;
+}
+
+body { font-size: 20px;}
+p#red { font-size: 2em;}
+p#klein { font-size: 0.8em;}
+body { font-family:cursive;}

@@ -1,0 +1,12 @@
+h1 {font-size: 50px; color: brown;}
+h2 {font-size: 30px; color: brown;}
+
+body {background-image: url(back.jpg); font-size: 18px; color:brown; text-shadow:0 5px 10px rgba(0,0,0,0.7);}
+
+img {
+	border-left: 5px solid blue;
+	border-right: 5px solid blue;
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+	}

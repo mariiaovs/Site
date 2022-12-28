@@ -1,0 +1,28 @@
+@keyframes test {
+	0% { background-color: red;}
+	100% { background-color:blue;}
+}
+
+p {
+	height: 300px;
+	width: 300px;
+	background-color:red;
+	animation-name: test;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+	from { transform: scale(1); bottom: 100px; box-shadow: 0 0 10px rgba(255,0,0,1);}
+	to { transform: scale(2); bottom: 200px; box-shadow: 0 100px 100px rgba(255,0,0,0.5);}
+	}
+	
+
+
+button {
+	background-color: red;
+	border-color:red;
+	position:absolute;
+	left: 100px;
+	animation: bounce 1s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both;
+	}
